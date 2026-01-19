@@ -26,3 +26,6 @@
 ``git remote add origin https://github.com/Yevestevez/demo-git.git`` y subir el repositorio ``git push -u origin main``
 
 - Instalar la extensión [Editor Config](https://editorconfig.org/) para VSCode, es importante cuando trabajas en equipo para que las configuradores del editor sean similares.
+
+#### *19/01/2026*
+- Instalar extensión VSCode [Prettier](https://prettier.io/)
