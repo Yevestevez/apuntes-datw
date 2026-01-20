@@ -6,19 +6,19 @@
 
 ### Tipo de datos PRIMITIVOS (7)
 
-'Hola mundo 🌍' // string
-4; // number
-true, false // boolean
+- 'Hola mundo 🌍' // string
+- 4; // number
+- true, false // boolean
 
-undefined // undefined
-null // null
+- undefined // undefined
+- null // null
 
-5n // bigint
-Symbol() // symbol
+- 5n // bigint
+- Symbol() // symbol
 
 ### Tipos de datos REFERENCIADOS u OBJETOS (1)
 
-{} // object
-[] // object (array)
+- {} // object
+- [] // object (array)
 
-() => {} // function (son un tipo especial de objetos)
+- () => {} // function (son un tipo especial de objetos)
