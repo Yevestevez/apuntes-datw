@@ -65,3 +65,16 @@
   `Math.random();`
 - Operadores
 - Bucles
+
+#### _22/01/2026_
+
+- Operador ternario --> num % 2 === 0 ? 'par' : 'impar'
+- Valores por defectos en parámetros de funciones --> function(parametro = 'valor por defecto') {...}
+- Iteración e índices en strings --> string[i]
+- Arrays --> const array = [elemento1, elemento2, elemento3]
+- Recorrer arrays, inyectar items...
+- Instalar prompt-sync en nuestro proyecto _demo-js_ `npm i prompt-sync` para poder hacer promts en la consola de node de manera sencilla
+- Package.json vs package-lock.json
+- [gitignore.io](https://www.toptal.com/developers/gitignore)
+- Control + Espacio --> preguntar a Intellisense de VSCode
+- Operadores lógicos `&&` y `||`
