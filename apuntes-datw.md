@@ -73,8 +73,19 @@
 - Iteración e índices en strings --> string[i]
 - Arrays --> const array = [elemento1, elemento2, elemento3]
 - Recorrer arrays, inyectar items...
+- Instalación de dependencias con `npm i <nombre-libreria>`
 - Instalar prompt-sync en nuestro proyecto _demo-js_ `npm i prompt-sync` para poder hacer promts en la consola de node de manera sencilla
-- Package.json vs package-lock.json
+- Package.json y package-lock.json
 - [gitignore.io](https://www.toptal.com/developers/gitignore)
 - Control + Espacio --> preguntar a Intellisense de VSCode
 - Operadores lógicos `&&` y `||`
+
+#### _23/01/2026_
+
+- Debugger VSCode
+- Case
+- Tipos de datos (null, undefined, bigint)
+- Objetos -> propiedades, valores, anidamiento de objetos, array de arrays (matrices multidimensionales)
+- Acceso a propiedades de objetos con punto `.` y a items de arrays con corchetes `[i]`
+- Métodos de array
+- clonado de objetos (shallow vs depp) --> structuredClone(object)
