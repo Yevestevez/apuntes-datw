@@ -1,8 +1,14 @@
+<style>
+  h1 { color: #6f47b9; font-weight: bold }
+  h3 {color: #6f47b9; font-size: 16px}
+  p { font-size: 14px; }
+</style>
+
 # APUNTES DATW
 
-#### _Desarrollo de aplicaciones con tecnologías web_
+## Desarrollo de aplicaciones con tecnologías web
 
-#### _14/01/2026_
+### _14/01/2026_
 
 - Instalar nvm o similar (control de versiones de node)
   [nvm](https://github.com/coreybutler/nvm-windows) o
@@ -11,7 +17,7 @@
 - Instalar node versión LTS (24) desde la consola del sistema <br>
   `node install lts`
 
-#### _15/01/2026_
+### _15/01/2026_
 
 - Instalar [Git](https://git-scm.com/install/windows)
 
@@ -30,7 +36,7 @@
 
 - Instalar la extensión [Editor Config](https://editorconfig.org/) para VSCode, es importante cuando trabajas en equipo para que las configuradores del editor sean similares.
 
-#### _19/01/2026_
+### _19/01/2026_
 
 - Instalar extensión VSCode [Prettier](https://prettier.io/). Lo configuramos como formateador predeterminado y activamos formatOnSave, De este modo aseguramos que el formato de nuestro código sigue las buenas prácticas más habituales.
 
@@ -44,7 +50,7 @@
 
 - Instalamos [ESLint](https://eslint.org/).
 
-#### _20-21/01/2026_
+### _20-21/01/2026_
 
 - Funciones básicas
 - Expresiones funcionales
@@ -66,7 +72,7 @@
 - Operadores
 - Bucles
 
-#### _22/01/2026_
+### _22/01/2026_
 
 - Operador ternario --> num % 2 === 0 ? 'par' : 'impar'
 - Valores por defectos en parámetros de funciones --> function(parámetro = 'valor por defecto') {...}
@@ -80,7 +86,7 @@
 - Control + Espacio --> preguntar a Intellisense de VSCode
 - Operadores lógicos `&&` y `||`
 
-#### _23/01/2026_
+### _23/01/2026_
 
 - Debugger VSCode
 - Case
@@ -90,7 +96,7 @@
 - Métodos de array
 - clonado de objetos (shallow vs deep) --> structuredClone(object)
 
-#### _26/01/2026_
+### _26/01/2026_
 
 - Nuevo repo demo-html --> .gitignore (node), .editorconfig, readme.md, package.json (prettier singlequote)
 
@@ -114,3 +120,27 @@
   - SEO (Search Engine Optimization) y WPO (Web Performance Optimization)
   - Enlaces `<a href="https://www.google.es">`
   - [web.dev (de Google)](https://web.dev/learn?hl=es-419) -> Cursos de HTML, CSS, JS...
+
+### _27/01/2026_
+
+- Jerarquía en el HTML
+- El estilo no tiene nada que ver con HTML, es solo estructura
+- Archivo .svg, código svg y etiqueta `<svg>`
+- `<head>`
+  - Metadatos `<meta>`
+    - name y content:
+      - `name="viewport" content="width=device-width, initial-scale=1.0"`
+      - `name="description" content="Descripción breve de la página web"`
+      - `name="keywords" content="HTML, CSS, JavaScript"` --> Ya no es tan importante porque los buscadores lo automatizan
+      - `name="robots" content="index, follow"` --> Indicaciones para los bots de los buscadores
+      - `name="author" content="Edu"`
+      - `name="og:title" content=""` --> Open Graph. Como muestran nuestra web las redes sociales
+      - [opengraph.xyz](https://www.opengraph.xyz/)
+    - link:
+      - `<link rel="stylesheet" href="">`
+      - `<link rel="icon" href="">`
+
+- Instalación de Live Server en el proyecto `npm i live-server` y uso con `npx live-server`
+- Podemos cambiar el color, icono y nombre de mis terminales
+- Fuentes --> Google Fonts
+- `<script type="module" src="./ex2.js"></script>` para enlazar a archivos .js
