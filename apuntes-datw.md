@@ -161,3 +161,13 @@
 - Párrafos:
   - `<pre>` Párrafos pre-formateado . Respeta el formato, por ejemplo los saltos de línea
   - `<blockquote>`. Bloque de cita
+
+### _29/01/2026_
+
+- Organización en GitHub
+- Crear repo "recetas" y configurar (Github.dev) con `.` en el repo de GitHub
+- Protegemos rama main -> _settings/branches/protect_
+- Creamos ramas en remoto (podría ser en local y empujarlas)
+- Ramas podríamos dividirlas en (features/, bugs/, hotfix/)
+- Despliegue a producción con GitHub.io desde la rama main
+- [Página de recetas](https://cfdalcobendas2026.github.io/recetas/)
